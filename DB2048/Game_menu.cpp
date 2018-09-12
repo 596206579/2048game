@@ -19,13 +19,10 @@ void game_menu()
 	RECT r1 = { 0,0,WIDTH,HEIGHT / 3 };
 	drawtext("欢迎来到2048的世界", &r1, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 
-
-
 	settextstyle(30, 0, "微软雅黑");
 	RECT r2 = { WIDTH / 2 - 45,HEIGHT / 3,WIDTH / 2 + 45,HEIGHT / 3 + 30 };
 	drawtext("开始游戏", &r2, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 	RECT r3 = { WIDTH / 2 - 45,HEIGHT / 3 + 30,WIDTH / 2 + 45,HEIGHT / 3 + 60 };
-
 	drawtext("游戏介绍", &r3, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 	RECT r4 = { WIDTH / 2 - 45,HEIGHT / 3 + 60,WIDTH / 2 + 45,HEIGHT / 3 + 90 };
 	drawtext("操作说明", &r4, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
